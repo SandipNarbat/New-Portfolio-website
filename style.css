@@ -1,0 +1,154 @@
+/* ==========  fonts  =========== */
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Unbounded:wght@300;400;700&display=swap');
+
+/* =============  roots  =========== */
+
+:root {
+  --primary-color: #00242c;
+  --secondary-color: #00D1FF;
+  --secondary-color-50: #00d0ff80;
+  --white: #ffffff;
+  --black: #000000;
+
+  --font-size-xs: 10px;
+  --font-Size-s: 15px;
+  --font-size-m: 20px;
+  --font-size-l: 24px;
+  --font-size-xl: 25px;
+  --font-size-xxl: 30px;
+  --font-size-xxxl: 62px;
+
+
+  --font-weight-bold: 700;
+  --font-weight-normal: 500;
+  --font-weight-regular: 400;
+}
+
+/* ================  css reset  =============== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ==================  start from here  ============== */
+
+body {
+  font-family: 'DM Sans';
+  background-color: #00242C;
+  color: #fff;
+}
+
+.container {
+  margin-left: 7.68rem;
+  margin-right: 7.68rem;
+}
+
+.home-parent{
+  
+}
+
+.home{
+  /* position: fixed; */
+  left: 50%;
+  transform: translate(-50%, 0);
+
+}
+
+.home img{
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+
+
+.elipse-1 {
+  height: 616px;
+  width: 616px;
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(17px);
+  border-radius: 50%;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  position: absolute;
+
+}
+
+.elipse-2 {
+  width: 209px;
+  height: 209px;
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(17px);
+  border-radius: 50%;
+  top: 50%;
+  left: 80%;
+  transform: translate(-50%, 0);
+  position: absolute;
+
+}
+
+.javascript{
+  position: absolute;
+  background-color: #fff;
+  width: 154px;
+  height: 154px;
+  border-radius: 100%;
+  display: flex;
+  top: 10%;
+  left: -5%;
+
+
+
+}
+.javascript img{
+  width: 96px;
+}
+.html{
+  position: absolute;
+  background-color: #fff;
+  width: 81px;
+  height: 81px;
+  border-radius: 100%;
+  display: flex;
+
+  top: 10%;
+  left: 80%;
+
+}
+.html img{
+  width: 35px;
+}
+.css{
+  position: absolute;
+  background-color: #fff;
+  width: 101px;
+  height: 101px;
+  border-radius: 100%;
+  display: flex;
+
+  top: 50%;
+  left: 0;
+
+}
+.css img{
+  width: 48px;
+}
+.logos_bootstrap{
+  position: absolute;
+  background-color: #fff;
+  width: 106px;
+  height: 106px;
+  border-radius: 100%;
+  display: flex;
+
+  top: 40%;
+  left: 93%;
+
+}
+.logos_bootstrap img{
+  width: 59px;
+}
